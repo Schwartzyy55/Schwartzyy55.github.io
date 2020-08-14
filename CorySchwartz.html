@@ -1,0 +1,50 @@
+
+<html>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+    <head>
+        <title>Cory Schwartz</title>
+    </head>
+    <header>
+        <div class = "logo">
+          <h1> <a href="CorySchwartz.html">CORYSCHWARTZ.COM</a> </h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+          <li><button><a href="CorySchwartz.html">Home</a></button></li>
+          <li><button><a href="WorkCorySchwartz.html">Work</a></button></li>
+          <li><a href="AboutCorySchwartz.html">About</a></li>
+          <li><a href="HockeyCorySchwartz.html">Hockey</a></li>
+          <li><a href="SocialMediaCorySchwartz.html">Social Media</a></li>
+        </ul>
+    </nav>
+    
+
+
+    <body>
+        <h3>Featured</h3>
+        <p>Insert two columns here, showing my most clicked on work.</p>
+
+        <hr />
+
+        <h3>Recently Added</h3>
+        <p>Insert one columns here, showing my recently added work. When more work is added, then do two columns. 
+        </p>
+
+        <hr />
+
+        <ul> Steps to take in order to complete awesome website
+          <li> Finish reading and implementing tools learned from Ebook.</li>
+          <li> Make a header with tabs for your other pages</li>
+          <li> Put work on pages</li>
+          <li> Learn how to implement CSS3 into your webpage</li>
+        </ul>
+
+        <hr />
+
+
+    </body>
+
+    <div class = "footer"> Welcome to the website! Established 2019 </div>
+</html>

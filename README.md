@@ -1,2 +1,3 @@
-# Schwartzyy55.github.io
+# CorySchwartz
 My Website
+First steps in Github.

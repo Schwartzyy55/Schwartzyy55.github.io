@@ -10,10 +10,10 @@ flex-wrap: wrap;
 justify-content: center;
 margin-top: 0px;
 text-decoration: none;
-color: white;
+color: darkslategrey;
 position: relative;
 }
 
 header a:active{
-top: 1px;
+top: 3px;
 }

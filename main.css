@@ -10,9 +10,9 @@ flex-wrap: wrap;
 justify-content: center;
 margin-top: 0px;
 text-decoration: none;
-color: #b22234;
+color: white;
 position: relative;
-background-image: url('../pictures/stars.png');
+background-color: #3c3b6e;
 }
 
 header a:active{

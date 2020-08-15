@@ -1,6 +1,6 @@
 body {
   background-color: azure;
-  color: darkslategrey;
+  color: black;
 }
 
 header a {
@@ -10,10 +10,10 @@ flex-wrap: wrap;
 justify-content: center;
 margin-top: 0px;
 text-decoration: none;
-color: darkslategrey;
+color: Maroon;
 position: relative;
 }
 
 header a:active{
-top: 3px;
+top: 1px;
 }

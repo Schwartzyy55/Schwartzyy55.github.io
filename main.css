@@ -1,6 +1,6 @@
 body {
-  background-color: azure;
-  color: black;
+  background-color: #ffffff;
+  color: #3c3b6e;
 }
 
 header a {
@@ -10,8 +10,9 @@ flex-wrap: wrap;
 justify-content: center;
 margin-top: 0px;
 text-decoration: none;
-color: Maroon;
+color: #b22234;
 position: relative;
+background-image: url('../pictures/stars.png');
 }
 
 header a:active{

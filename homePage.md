@@ -1,0 +1,15 @@
+layout: page
+title: "Home Page"
+permalink: https://schwartzyy55.github.io
+
+<html>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+  <head>
+    <title>Cory Schwartz</title>
+  </head>
+  <header>
+    <div class = "logo">
+      <h1> <a href="Schwartzyy55.github.io"> Cory Schwartz</a> </h1>
+    </div>
+  </header>
+</html>

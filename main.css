@@ -1,20 +1,51 @@
+/* comment */
+/* This is a selector for all elements to change font */
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* This is my html selector to change colors inside body */
 body {
-  background-color: #ffffff;
+  background-color: rgb(32, 36, 42);
   color: #3c3b6e;
 }
 
+/* Cory Schwartz Header Link on Top of Page
+ need to learn to make a button inside a shaded area, so only words move when clicked */
 header a {
-font-size: 45px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-top: 0px;
-text-decoration: none;
-color: white;
-position: relative;
-background-color: #3c3b6e;
+  font-size: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+  text-decoration: none;
+  position: relative;
+  color: #3c3b6e;
+}
+/* Simulate Button Click  */
+header a:active {
+  top: 1px;
 }
 
-header a:active{
-top: 1px;
+/* Navigation Bar Style */
+nav {
+  background-color: rgb(53, 57, 61);
+  line-height: 60px;
+}
+
+nav button {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+nav button:active {
+  top: 2px;
+}
+
+nav li {
+  display: inline;
+  margin: 10;
+  padding: 10px 45px;
 }

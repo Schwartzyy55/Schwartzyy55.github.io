@@ -10,42 +10,57 @@ body {
   color: #3c3b6e;
 }
 
-/* Cory Schwartz Header Link on Top of Page
- need to learn to make a button inside a shaded area, so only words move when clicked */
-header a {
+/* Cory Schwartz Header Link on Top of Page --------------------------------*/
+
+.headerLink {
+  text-align: center;
   font-size: 45px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 0px;
-  text-decoration: none;
+  background-color: slategrey;
   position: relative;
-  color: #3c3b6e;
 }
-/* Simulate Button Click  */
-header a:active {
+.headerLink a {
+  text-decoration: none;
+  color:rgb(255, 211, 84);
+}
+/* Simulate headerLink hover  */
+.headerLink a:hover {
+  text-shadow:1px 1px 2px slategrey;
+  color:gold;
+}
+/* Simulate headerLink click  */
+.headerLink a:active {
   top: 1px;
 }
 
-/* Navigation Bar Style */
-nav {
+
+/* Navigation Bar Style --------------------------------------------------*/
+.panel {
   background-color: rgb(53, 57, 61);
-  line-height: 60px;
+  margin-top: 0;
+  padding: 5 5;
 }
-
-nav button {
-  position: relative;
-  height: 50px;
-  width: 100px;
-  cursor: pointer;
+.panel ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-
-nav button:active {
-  top: 2px;
-}
-
-nav li {
+.panel li {
   display: inline;
+  margin: 50
+}
+.panel a {
+  text-decoration: none;
+  color: rgb(255, 211, 84);
+  font-size: 25px;
   margin: 10;
   padding: 10px 45px;
 }
+.panel a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+.panel a:active {
+
+}
+/*                    --------------------------------------------------*/

@@ -5,7 +5,8 @@
 }
 
 /* This is my html selector to change colors inside body */
-body {
+
+html {
   background-color: rgb(32, 36, 42);
   color: #3c3b6e;
 }
@@ -15,8 +16,11 @@ body {
 .headerLink {
   text-align: center;
   font-size: 45px;
-  background-color: slategrey;
-  position: relative;
+  background-image: url(https://bernardsvillefire.org/wp-content/uploads/2018/07/american-flag-header-bkgd.jpg);
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  height: 30%;
 }
 .headerLink a {
   text-decoration: none;
@@ -38,6 +42,8 @@ body {
   background-color: rgb(53, 57, 61);
   margin-top: 0;
   padding: 5 5;
+  display: inline-block;
+  width: 100%;
 }
 .panel ol {
   margin-top: 0;
@@ -63,4 +69,4 @@ body {
 .panel a:active {
 
 }
-/*                    --------------------------------------------------*/
+/* Home body containers     --------------------------------------------------*/

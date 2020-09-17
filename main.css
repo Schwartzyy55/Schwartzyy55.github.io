@@ -24,12 +24,12 @@ html {
 }
 .headerLink a {
   text-decoration: none;
-  color:rgb(255, 211, 84);
+  color:white;
 }
 /* Simulate headerLink hover  */
 .headerLink a:hover {
   text-shadow:1px 1px 2px slategrey;
-  color:gold;
+  filter:brightness(150%);
 }
 /* Simulate headerLink click  */
 .headerLink a:active {
@@ -57,14 +57,14 @@ html {
 }
 .panel a {
   text-decoration: none;
-  color: rgb(255, 211, 84);
+  color: gray;
   font-size: 25px;
   margin: 10;
   padding: 10px 45px;
 }
 .panel a:hover {
-  color: gold;
-  text-decoration: underline;
+  color: gray;
+  filter: brightness(140%);
 }
 .panel a:active {
 

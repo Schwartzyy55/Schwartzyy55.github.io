@@ -7,8 +7,8 @@
 /* This is my html selector to change colors inside body */
 
 html {
-  background-color: rgb(32, 36, 42);
-  color: #3c3b6e;
+  background-color: rgb(32, 33, 36);
+  color: honeydew;
 }
 
 /* Cory Schwartz Header Link on Top of Page --------------------------------*/
@@ -27,11 +27,11 @@ html {
 .headerLink a {
   text-decoration: none;
   color: honeydew;
-  text-shadow: 1px 1px 2px black;
+  text-shadow:2px 2px 3px black;
 }
 /* Simulate headerLink hover  */
 .headerLink a:hover {
-  text-shadow:2px 2px 3px black;
+  filter: brightness(90%);
 }
 /* Simulate headerLink click  */
 .headerLink a:active {
@@ -41,32 +41,29 @@ html {
 
 /* Navigation Bar Style --------------------------------------------------*/
 .panel {
-  background-color: rgb(53, 57, 61);
-  margin-top: 0;
-  padding: 5 5;
   width: 100%;
   text-align: center;
+  background-color: rgb(53,54,58);
 }
 .panel ol {
-  margin: 0 auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 .panel li {
-  display: inline;
+ padding: 25px;
 }
 .panel a {
   text-decoration: none;
-  color: gray;
+  color: honeydew;
   font-size: 25px;
   margin: 10;
   padding: 10px 45px;
-  border: solid darkgrey;
 }
 .panel a:hover {
-  color: gray;
-  filter: brightness(140%);
+  filter: brightness(70%);
 }
 .panel a:active {
 

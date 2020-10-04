@@ -13,7 +13,7 @@ html {
 
 /* Cory Schwartz Header Link on Top of Page --------------------------------*/
 
-.headerLink {
+header {
   text-align: center;
   font-size: 45px;
   background-image: url(https://raw.githubusercontent.com/Schwartzyy55/Schwartzyy55.github.io/master/pictures/usa.jpg);
@@ -24,48 +24,62 @@ html {
   filter: brightness(80%);
 
 }
-.headerLink a {
+header a {
   text-decoration: none;
   color: honeydew;
   text-shadow:2px 2px 3px black;
 }
 /* Simulate headerLink hover  */
-.headerLink a:hover {
+header a:hover {
   filter: brightness(90%);
 }
 /* Simulate headerLink click  */
-.headerLink a:active {
+header a:active {
   top: 1px;
 }
 
 
 /* Navigation Bar Style --------------------------------------------------*/
-.panel {
+nav {
   width: 100%;
   text-align: center;
   background-color: rgb(53,54,58);
 }
-.panel ol {
+nav ol {
   padding-left: 100px;
   padding-right: 100px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
-.panel li {
+nav li {
  padding: 25px;
 }
-.panel a {
+nav a {
   text-decoration: none;
   color: honeydew;
   font-size: 25px;
   margin: 10;
   padding: 10px 45px;
 }
-.panel a:hover {
+nav a:hover {
   filter: brightness(70%);
 }
-.panel a:active {
+nav a:active {
 
 }
 /* Home body containers     --------------------------------------------------*/
+
+main {
+  background-color: rgb(53,54,58);
+}
+
+.section {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration:underline;
+}
+
+.details {
+  font-size: 20px;
+}

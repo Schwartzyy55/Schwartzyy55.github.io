@@ -1,7 +1,12 @@
 /* comment */
 /* This is a selector for all elements to change font */
+@font-face {
+  font-family: "Apple";
+  src: url(SF-Pro-Text-Thin.otf);
+}
+
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Apple","Times New Roman", Times, serif;
 }
 
 /* This is my html selector to change colors inside body */
@@ -26,8 +31,9 @@ header {
 }
 header a {
   text-decoration: none;
+  font-weight: bolder;
   color: honeydew;
-  text-shadow:2px 2px 3px black;
+  text-shadow:3px 3px 3px black;
 }
 /* Simulate headerLink hover  */
 header a:hover {
@@ -68,7 +74,7 @@ nav a:hover {
 nav a:active {
 
 }
-/* Home body containers     --------------------------------------------------*/
+/* main containers     --------------------------------------------------*/
 
 main {
   background-color: rgb(53,54,58);
@@ -82,4 +88,10 @@ main {
 
 .details {
   font-size: 20px;
+}
+
+input[type="submit"] {
+  border: 1px solid grey;
+  font-size: 30px;
+  border-radius: 10px;
 }

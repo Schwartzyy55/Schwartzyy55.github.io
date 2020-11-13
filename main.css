@@ -49,17 +49,19 @@ nav {
   text-align: center;
   background-color: rgb(53,54,58);
 }
-nav ol {
+nav ul {
+  position: relative;
   padding-left: 100px;
   padding-right: 100px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
-nav li {
+nav ul li {
  padding: 25px;
 }
-nav a {
+nav ul li a {
+  display: block;
   text-decoration: none;
   color: honeydew;
   font-size: 25px;
@@ -70,8 +72,27 @@ nav a:hover {
   filter: brightness(70%);
 }
 nav a:active {
-
+  filter: brightness(20%);
 }
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+nav ul ul li {
+  float: left;
+  background-color: red;
+  text-align: center;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav > ul::after {
+  content:"";
+  display: block;
+  clear:both;
+}
+
 /* main containers     --------------------------------------------------*/
 
 main {
